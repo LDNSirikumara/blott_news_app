@@ -1,7 +1,5 @@
-import 'package:floor/floor.dart';
 import '../../domain/entities/article_entitie.dart';
 
-@Entity(tableName: 'article', primaryKeys: ['id'])
 class ArticleModel extends ArticleEntity {
   const ArticleModel({
     required super.id,
